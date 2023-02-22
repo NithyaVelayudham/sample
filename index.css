@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 'Playball', cursive;
+    font-size: 105%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900 !important;
+    }
+/*--header section--*/
+
+#header .navbar-brand h1{
+    font-size: 28px;
+  font-weight: 600;
+ height: 100px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+ }
+#header .navbar button{
+    max-width: 100px;
+    max-height: 30px;
+}
+
+#header a:hover{
+    color:deepskyblue;
+    text-decoration: underline brown;
+   }
+   /*--main start--*/
+   .sec-title{
+    color: darkblue;
+    text-align: center;
+    margin-top: 10rem;
+    text-decoration:5px underline black;
+letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+  serif 'Playball', cursive;
+   }
+   
+
+.sec-title:hover{
+    color:darkgreen ;
+}
+ .text{
+    text-align: center;
+    margin-top: 50px;
+   font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+    serif 'Playball', cursive;
+   }
+   /*-- section home--*/
+   #Home{
+width: 100%;
+margin-top: auto;
+   }
+   #Home .container-fluid{
+    max-height: 150vh;
+    margin-top: auto;
+    background-image: url(img/pic.png) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.jumbotron{
+   max-height: 100vh;
+    text-align: center;
+    
+}
+#Home .text{
+    color:blue;
+    font:900px !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+    serif 'Playball', cursive;
+    padding: 10rem 10rem;
+}
+#Home button{
+    background-color: aquamarine;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+ /*--About--*/
+ #About{
+    margin-top: 10px;
+    width: 100%;
+     background-color: gray;
+ }
+
+ #About h2{
+color:darkcyan;
+    font:900px !important;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+        serif 'Playball', cursive;
+       }
+#About .row{
+    margin-top: 10%;
+}
+#About img{
+    height: 100%;
+    width: 90%;
+    padding-left: 50px;
+}
+  /*--Services--*/
+  #Service{
+    margin-top: 10%;
+    display: flex;
+ }
+ #Service .card{
+   border-color: white;
+   border-style: hidden; 
+   }
+  
+   
+ #Service .icon-box {
+font-size: 50px;
+
+ }
+ #Service .icon-box :hover{
+    color: brown;
+    background-color: darkgreen;
+ }
+ #Service .h4{
+    font-size: 20px;
+   
+ }
+ #Service .h4:hover{
+    color: brown;
+    text-decoration:underline 2px darkgoldenrod;
+ }
+
+
+  /*section team start*/
+  #Team{
+    margin-top: 10%;
+    display: flex;
+ }  
+ #Team .card{
+    margin-top: 50px;
+    max-height: 500px;
+    line-height: 20px;
+    text-align: center;
+   border-style:groove;
+    border-color:bisque;
+
+ } 
+ #Team .card img{
+    max-width: 100px;
+    max-height: 100px;
+text-align: center;
+margin-top: -50px;
+    
+ }
+ #Team .card .social-link button{
+        height: 40px;
+        width: 30px;
+        color: black;
+        padding: 5px 5px;
+        margin-top: 20px;
+ }
+ #Team .card .social-link a:hover button{
+    color: blue;
+    background-color: aquamarine;
+ }
+ 
+ #Team .card-text{
+    text-align: center;
+    margin-top: 50px;
+    font:900px !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+    serif 'Playball', cursive;
+ }
+     /*--testimonial--*/  
+    #testimonial{
+    margin-top: 50px;
+    
+}
+.carousel{
+    height: 540px;
+  
+  background-color: bisque;
+}
+.carousel-inner{
+    max-width: 80%;
+    min-height: 50vh;
+   margin: 10% 20%;
+   margin-left: 10%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.carousel .card{
+    min-height: 50vh;
+    max-width: 100%;
+    margin-top: 10%;
+   bottom: 50px;
+   padding: 20px;
+    }
+    .carousel .card .icon{
+        height: 100px;
+        width: 100px;
+        margin:20px auto;
+        padding: 50px auto;  
+    }
+.carousel .card-body .icon img{
+    height: 100px;
+    width: 100px;
+    margin:20px auto;
+    padding: 50px auto;
+}
+ .card-body .carousel-caption{
+  max-height: 50%;
+    bottom: 2px;
+   padding: 50px 0 180px 0;
+   line-height: 50px;
+    text-align: center;
+}  
+.card-body .carousel-caption button{
+    height: 50px;
+    width: 100px;
+    background-color:lightpink;
+    border-radius: 20px;
+}
+.carousel-indicators{
+    margin-top: 5px;
+}
+@media screen and (max-width:576px){
+    
+    .carousel{
+        height: 500px;
+ }
+        .carousel-inner{
+            margin-top: 20px;
+        width: 450px;
+        height: 500px;
+        
+       }
+       .carousel .card{
+        height: 300px;
+        width: 400px;
+
+       }
+       .card-body .carousel-caption{
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 15px;
+      }  
+      .carousel .card-body .icon img{
+        height: 50px;
+        width: 50px;
+        margin:20px auto;
+        padding: 20px auto;
+    }
+    
+     .carousel-control-prev{
+margin-top: -200px;
+     }   
+     .carousel-control-next{
+        margin-top: -200px;
+             }   
+    
+    }
+ /*--portfolio--*/
+ #Portfolio{
+    margin-top: 10%;
+    display: flex;
+}
+#Portfolio .text{
+    text-align: center;
+    margin-top: 50px;
+   font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+    serif 'Playball', cursive;
+}
+#Portfolio a {
+   color: black;
+   font-size: 15px;
+   font-style: italic;
+}
+#Portfolio a:hover{
+    color: darkcyan;
+    background-color: cornsilk;
+    text-decoration:5px underline black;
+    text-transform: uppercase;
+}
+             
+                /*--Contact section--*/
+#Contact{
+    background-color:darkgrey;
+}
+        #Contact .card{
+           text-align: center;
+           margin-top: 8%;
+           color: white;
+           border-style: groove;
+           background-color: black;
+         box-shadow: 20px solid rgb(60, 56, 56);
+        }
+        #Contact .card-body h3{
+            text-align: center;
+            padding-top: 15px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+            serif 'Playball', cursive;
+             font-size: 20px;
+            }
+            #Contact .card-body h2{
+                text-align: center;
+                padding-top: 5px;
+            line-height: 30px;
+            font-family:'Times New Roman', Times, serif;
+             font-size: 15px
+            }
+            #Contact .card-body .icon{
+                text-align: center;
+                padding-top: 10px;
+            line-height: 20px;
+        font-size: 30px; 
+            }
+            #Contact a:hover .icon{
+                color: brown;
+            }
+
+
+        #Contact .text{
+            text-align: center;
+            margin-top: 50px;
+           font-size: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', 
+            serif 'Playball', cursive;
+
+           }
+           .form-control{
+            height: 50px;
+            border:1px solid black;
+            border-style: outset;
+           
+        }
+          form{
+            margin-top: 30px;
+            line-height: 50px;
+          }
+          form .btn {
+            height: 50px;
+            width: 150px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 20px 250px;
+          }
+          #sub{
+              margin-top: 10%;
+              display: flex;
+              
+          }
+          .input-group{
+              height: 20px;
+              width: 50%;
+             margin: 20px 200px;
+             
+          }
+          .input-group  button {
+              height: 50px;
+              width: 150px;
+              border-radius: 50px;
+          }
+          
+
